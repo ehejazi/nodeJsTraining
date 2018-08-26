@@ -27,5 +27,3 @@ console.log(`String Util remove B from ${str1}: ${stringUtil.remove(str1, 'B')}`
 const everyOtherChar = stringUtil.everyOtherChar(str1);
 console.log(`String Util every other char from ${str1}: ${everyOtherChar}`);
 console.log(`String Util every other char from ${str2}: ${stringUtil.everyOtherChar(str2)}`);
-
-

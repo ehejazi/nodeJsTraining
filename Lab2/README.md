@@ -1,6 +1,6 @@
 # Read and Write File
 
-## 1. Open index.js
+## 1. Open BlockingCode.js
 ## 2. Note the functionality of the program.
 The program will:
 * stringGenerator.js is a file that has randomized content.
@@ -14,10 +14,6 @@ The program will:
 
 You will have to change ```writeFileSync``` to ```writeFile``` and ```readFileSync``` to ```readFile```.
 You will have to use Callback
-
-# Expected Output
-
-```
-Wrote {RANDOM_CONTENT}
-success read the right file contents!
-```
+  * Create a ```Callback``` function to read from file
+  * Switch writeFileSync to writeFile
+  * call the Callback 

@@ -23,6 +23,7 @@ if(readStr === randomStr) {
 } else {
     console.log(`failiure got the wrong content: ${readStr}`);
 }
-
+console.log('-------------');
 console.log('I am finally done');
+console.log('---------------');
 /** end */
